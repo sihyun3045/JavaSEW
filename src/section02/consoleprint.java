@@ -14,7 +14,8 @@ package section02;
 *		%f : 실수
 *		%e : 지수(e표기 기반)
 *		%g : 출력 대상에 따라 %e 또는 % 
-*
+*		%s : 문자열
+*		%c : 문자
 *
 */
 public class consoleprint {
@@ -27,6 +28,7 @@ public class consoleprint {
 		System.out.printf("오늘은 %d월 %d일 입니다",4,22);
 		
 		System.out.printf("%d은 첫번쨰, %f은 두번째, %s은 세번째.\n",1,2.0,"셋");
+	
 
 	}
 
